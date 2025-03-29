@@ -153,8 +153,8 @@ const Footer = () => {
           className="border-t border-dark-800 pt-8 text-center"
         >
           <p className="text-neutral-500">
-            &copy; {currentYear} ENG.Nada Sobeh. All rights reserved. 
-            <span className="block sm:inline"> Crafted with <span className="text-primary-400">♥</span> in Damascus, Syria.</span>
+            &copy; {currentYear} Eng.Nada Sobeh. All rights reserved. 
+           
           </p>
         </motion.div>
       </div>
