@@ -52,7 +52,7 @@ const Hero = () => {
   return (
     <>
       <Helmet>
-        <title>Nada Sobeh | Front End Developer</title>
+        <title>Nada Sobeh | Web Developer /Front End </title>
         <meta name="description" content="Portfolio of Nada Sobeh, a skilled Front End Developer specializing in React and Tailwind CSS." />
       </Helmet>
       
@@ -102,7 +102,7 @@ const Hero = () => {
           >
             <FaCode className="text-primary-500 text-xl" />
             <h2 className="text-xl sm:text-2xl text-dark-800 font-medium">
-              Front End Developer
+              Web Developer /Front End 
             </h2>
             <FaPalette className="text-secondary-500 text-xl" />
           </motion.div>

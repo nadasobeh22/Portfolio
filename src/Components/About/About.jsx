@@ -65,9 +65,6 @@ const About = () => {
             About Me
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto mb-6"></div>
-          <p className="max-w-2xl mx-auto text-xl text-neutral-600">
-            A Palestinian coder thriving in Syria, shaping the web one line at a time
-          </p>
         </motion.div>
 
         <motion.div
@@ -80,9 +77,8 @@ const About = () => {
           <motion.div variants={textItem} className="lg:w-2/3 space-y-8">
             <div className="space-y-6">
               <p className="text-xl leading-relaxed text-neutral-700">
-                <span className="text-2xl text-primary-500 font-bold">Hello!</span> I’m Nada Sobeh, a proud{' '}
-                <span className="font-bold text-dark-800">Palestinian</span> living in Damascus, Syria. As a self-taught{' '}
-                <span className="font-bold text-dark-800">Front End Developer</span>, I bring over 3 years of experience
+                <span className="text-2xl text-primary-500 font-bold">Hello!</span> I’m Nada Sobeh,
+                <span className="font-bold text-dark-800">Web Developer /Front End</span>, I bring over 3 years of experience
                 creating responsive, interactive, and user-friendly web applications.
               </p>
 
