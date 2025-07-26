@@ -10,6 +10,10 @@ import photo9 from '../assets/images/photo9.png'
 import photo10 from '../assets/images/photo10.png'
 import photo11 from '../assets/images/photo11.png'
 import photo12 from '../assets/images/photo12.png'
+import photo13 from '../assets/images/photo13.jpg'
+import photo14 from '../assets/images/photo14.jpg'
+import photo15 from '../assets/images/photo15.jpg'
+import photo16 from '../assets/images/photo16.jpg'
 
 export const projects = [
     {
@@ -166,5 +170,63 @@ export const projects = [
         'Maintaining a cohesive visual design'
       ],
       category: 'Website'
-    }
+    },
+    {
+  id: 7,
+  type: 'fullstack',
+  title: 'Restaurant User Interface',
+  shortDescription: 'Customer-facing food ordering experience',
+  longDescription:
+    'A responsive and engaging food ordering application for users with features like authentication, cart management, order placement, reservation system, and rating system. Designed to offer a smooth and intuitive experience on all devices.',
+  live: 'https://drive.google.com/file/d/1Btrwgghx2YqiQf5bbODshEwXUmugzJOE/view', 
+  images: [photo16,
+    photo15
+  ],
+  features: [
+    'User-friendly and responsive UI',
+    'Email/Password and Google OAuth login',
+    'Shopping cart management',
+    'Apply discount codes',
+    'Track orders and reservation status',
+    'Rate menu items'
+  ],
+  challenges: [
+    'Handling Google OAuth integration',
+    'Building dynamic discount application logic',
+    'Ensuring mobile-first design compatibility'
+  ],
+  category: 'Web Application',
+  backend: 'Laravel + MySQL',
+  role: 'User'
+},
+{
+  id: 8,
+  type: 'fullstack',
+  title: 'Restaurant Dashboard',
+  shortDescription: 'Administrative control panel for restaurant management',
+  longDescription:
+    'An admin dashboard designed to manage the restaurant’s operations including food menu, categories, orders, discount codes, and table reservations. Features a secure login system and role-based access control.',
+  live: 'https://drive.google.com/file/d/1KRKlEBYl7nycP2L7ABLVq3XHSo1OlGlF/view?usp=sharing', 
+  images: [
+     photo13,
+        photo14
+  ],
+  features: [
+    'Food item management (add, edit, delete)',
+    'Category management',
+    'Track and change order status',
+    'Manage table reservations',
+    'Manage discount codes and promotions',
+    'Secure role-based admin access'
+  ],
+  challenges: [
+    'Implementing secure admin authentication',
+    'Building scalable management interfaces',
+    'Real-time order and reservation updates'
+  ],
+  category: 'Admin Panel',
+  backend: 'Laravel + MySQL',
+  role: 'Admin'
+}
+
   ];
