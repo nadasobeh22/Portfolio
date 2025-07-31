@@ -71,31 +71,20 @@ const Header = () => {
             isMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
-          <div className="flex flex-col h-full">
-            <div className="flex justify-end p-4">
-              <button
+          <div className="flex flex-col items-center justify-center h-full space-y-6">
+            {navItems.map((item) => (
+              <ScrollLink
+                key={item.label}
+                to={item.to}
+                smooth={true}
+                duration={500}
+                offset={-80}
                 onClick={() => setIsMenuOpen(false)}
-                className="text-xl sm:text-2xl text-dark-800 hover:text-primary-500 transition-colors"
-                aria-label="Close menu"
+                className="text-lg sm:text-xl font-medium text-dark-800 hover:text-primary-500 transition-colors py-2"
               >
-                <FaTimes />
-              </button>
-            </div>
-            <div className="flex flex-col items-center justify-center flex-grow space-y-6">
-              {navItems.map((item) => (
-                <ScrollLink
-                  key={item.label}
-                  to={item.to}
-                  smooth={true}
-                  duration={500}
-                  offset={-80}
-                  onClick={() => setIsMenuOpen(false)}
-                  className="text-lg sm:text-xl font-medium text-dark-800 hover:text-primary-500 transition-colors py-2"
-                >
-                  {item.label}
-                </ScrollLink>
-              ))}
-            </div>
+                {item.label}
+              </ScrollLink>
+            ))}
           </div>
         </div>
       </div>
